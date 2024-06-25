@@ -1,0 +1,58 @@
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 150px 0;
+
+}
+   .login_all{
+    line-height: 42px;
+
+   }
+   .login_row{
+        width: 502.15px;
+        height: 73.17px;
+        top: 392.34px;
+        left: 453px;
+        gap: 0px;
+        border-radius: 0px 3px 3px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #000000 ;
+        display: flex;
+        align-items: center;
+
+    }
+    .login_row input{
+            outline: none;
+            border: none;
+            padding: 0 10px;
+            border-radius: 15px;    
+        }       
+
+        .login_row1{
+        width: 502px;
+        height: 70px;
+        box-shadow: 0px 10px 40px 0px #F8A17033;
+        background: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        border-radius: 10px;
+        border-radius: 15px;
+    }
+    .login_row1 button{
+            font-family: Nunito;
+font-size: 24px;
+font-weight: 800;
+line-height: 32.74px;
+letter-spacing: -0.02em;
+text-align: center;
+color: #FFFFFF;
+background:0;
+border: none;
+
+        }        

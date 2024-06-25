@@ -10,16 +10,17 @@ const ProductSingle = () => {
     if (isLoadingProduct) {
         return <div>Loading...</div>;
     }
+    console.log(product?.data);
 
     return (
         <div className="product-single-container container">
             {product ? (
                 <div key={product.id} className="product-single-item">
-                    <img src={product?.urls} alt={product.name} className="product-single-image" />
+                    <img src={product?.data?.urls} alt={product.name} className="product-single-image" />
                     <div className="product-single-details">
-                        <h2 className="product-single-name">{product.name}</h2>
-                        <p className="product-single-description">{product.description}</p>
-                        <p className="product-single-price">${product.price}</p>
+                        <h2 className="product-single-name">{product?.data?.name}</h2>
+                        <p className="product-single-description">{product?.data?.description}</p>
+                        <p className="product-single-price">${product?.data?.price}</p>
                         <button className="add-to-cart-button">Add to Cart</button>
                     </div>
                 </div>
